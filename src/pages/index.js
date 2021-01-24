@@ -3,14 +3,14 @@ import React from 'react'
 import Layout from '@/components/layout/layout'
 import Seo from '@/components/layout/seo'
 import Container from '@/components/shared/container'
-import { Heading } from '@chakra-ui/react'
+import Hero from '@/components/layout/hero'
 
 const IndexPage = () => {
   return (
     <Layout>
       <Seo title='Home' />
       <Container>
-        <Heading color='primary'>Index Page</Heading>
+        <Hero />
       </Container>
     </Layout>
   )
